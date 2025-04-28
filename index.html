@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--  -->
+    <!-- google font api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!--  -->
+    <!-- figma link -->
+    <!-- https://www.figma.com/design/XzuRJF2jj9CjDV8Vm99gRi/Full-E-Commerce-Website-UI-UX-Design--Community-?node-id=1-3&p=f&t=Rubc6cl0YWKn0jwz-0  -->
+    <!--  -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <div>
+        <!-- <button class="comon-button1">View all products</button> -->
+        <!-- <h1>hello</h1> -->
+        <!-- <h4>vivek</h4> -->
+        <section class="main-header">
+            <div class="container">
+                <div class="header">
+                    <div class="lists">
+                        <h3>Exclusive</h3>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#sign">Sign up</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <div class="d-flex align-items-center">
+                            <input type="search" placeholder="what are you looking for?">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section class="main-hero">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <!-- LEFT SIDE: Tab Buttons -->
+                    <div class="col-xl-3 right">
+                        <div class="my-list nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link active" id="women-tab" data-bs-toggle="pill" data-bs-target="#women"
+                                type="button" role="tab" aria-controls="women" aria-selected="true">Woman’s
+                                Fashion</button>
+                            <button class="nav-link" id="men-tab" data-bs-toggle="pill" data-bs-target="#men"
+                                type="button" role="tab" aria-controls="men" aria-selected="false">Men’s
+                                Fashion</button>
+                            <button class="nav-link" id="home-tab" data-bs-toggle="pill" data-bs-target="#home"
+                                type="button" role="tab" aria-controls="home" aria-selected="false">Home &
+                                Lifestyle</button>
+                            <button class="nav-link" id="medicine-tab" data-bs-toggle="pill" data-bs-target="#medicine"
+                                type="button" role="tab" aria-controls="medicine"
+                                aria-selected="false">Medicine</button>
+                            <button class="nav-link" id="sports-tab" data-bs-toggle="pill" data-bs-target="#sports"
+                                type="button" role="tab" aria-controls="sports" aria-selected="false">Sports &
+                                Outdoor</button>
+                            <button class="nav-link" id="baby-tab" data-bs-toggle="pill" data-bs-target="#baby"
+                                type="button" role="tab" aria-controls="baby" aria-selected="false">Baby’s &
+                                Toys</button>
+                            <button class="nav-link" id="groceries-tab" data-bs-toggle="pill"
+                                data-bs-target="#groceries" type="button" role="tab" aria-controls="groceries"
+                                aria-selected="false">Groceries & Pets</button>
+                            <button class="nav-link" id="health-tab" data-bs-toggle="pill" data-bs-target="#health"
+                                type="button" role="tab" aria-controls="health" aria-selected="false">Health &
+                                Beauty</button>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT SIDE: Tab Content -->
+                    <div class="col-xl-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+
+                            <!-- Now all tab panes are inside this div properly -->
+                            <div class="tab-pane fade show active" id="women" role="tabpanel"
+                                aria-labelledby="women-tab">
+                                <div class="hero-image-div">
+                                    <img src="./images/Frame 560.png" alt="Woman's Fashion" width="100%" height="100%">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="men" role="tabpanel" aria-labelledby="men-tab">
+                                <div class="hero-image-div">
+                                    <img src="./images/men-fashion.png" alt="Men's Fashion" width="100%" height="100%">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="tab-pane fade show active" id="women" role="tabpanel"
+                                    aria-labelledby="women-tab">
+                                    <div class="hero-image-div">
+                                        <img src="./images/Frame 560.png" alt="Woman's Fashion" width="100%"
+                                            height="100%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="medicine" role="tabpanel" aria-labelledby="medicine-tab">
+                                <div class="hero-image-div">
+                                    <img src="./images/medicine.png" alt="Medicine" width="100%" height="100%">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="sports" role="tabpanel" aria-labelledby="sports-tab">
+                                <div class="tab-pane fade show active" id="women" role="tabpanel"
+                                    aria-labelledby="women-tab">
+                                    <div class="hero-image-div">
+                                        <img src="./images/Frame 560.png" alt="Woman's Fashion" width="100%"
+                                            height="100%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="baby" role="tabpanel" aria-labelledby="baby-tab">
+                                <div class="hero-image-div">
+                                    <img src="./images/baby-toys.png" alt="Baby’s & Toys" width="100%" height="100%">
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="groceries" role="tabpanel" aria-labelledby="groceries-tab">
+                                <div class="tab-pane fade show active" id="women" role="tabpanel"
+                                    aria-labelledby="women-tab">
+                                    <div class="hero-image-div">
+                                        <img src="./images/Frame 560.png" alt="Woman's Fashion" width="100%"
+                                            height="100%">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="health" role="tabpanel" aria-labelledby="health-tab">
+                                <div class="hero-image-div">
+                                    <img src="./images/health-beauty.png" alt="Health & Beauty" width="100%"
+                                        height="100%">
+                                </div>
+                            </div>
+
+                        </div> <!-- Correct tab-content closing -->
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="main-slider">
+            <div class="container">
+                <div class="row flex-column">
+                    <div class="col-xl-12 bottom">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="today">
+                                    <img src="./images/Rectangle 17.png" alt="" height="100%">
+                                    <h4>Today</h4>
+                                </div>
+
+                                <div class="flash">
+                                    <h1>Flash Sales</h1>
+                                    <div class="count-time">
+                                        <div class="d-flex flex-column ">
+                                            <span>Day</span>
+                                            <h2>03</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column">
+                                            <span>Hours</span>
+                                            <h2>23</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column">
+                                            <span>Minutes</span>
+                                            <h2>13</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column ">
+                                            <span>Seconds</span>
+                                            <h2>56</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 d-flex align-items-end justify-content-end">
+                                <div class="slider-navigation d-flex justify-content-end">
+                                    <span class="custom-prev"><i class="fa-solid fa-arrow-left"></i></span>
+                                    <span class="custom-next"><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-12 ">
+                        <div class="cards slider ">
+                            
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 611.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 612.png" alt="">
+                                    <span class="cent">-35</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+
+                                    <button class="add">Add To Cart</button>
+                                </div>
+
+                                <div>
+                                    <h5>AK-900 Wired Keyboard</h5>
+                                    <div class="rupee">
+                                        <h4>$960</h4>
+                                        <h5>$1160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>IPS LCD Gaming Monitor</h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 614.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>S-Series Comfort Chair </h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>S-Series Comfort Chair</h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 614.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="all-product">
+                        <button class="common-button">View All Products</button>
+                    </div>
+
+                    <hr style="margin-bottom: 80px !important;">
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="main-category">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 category">
+                        <div class="row w-100">
+                            <div class="col-xl-6 ">
+                                <div class="today">
+                                    <img src="./images/Rectangle 17.png" alt="" height="100%">
+                                    <h4>Categories</h4>
+                                </div>
+                                <div>
+                                    <h1>
+                                        Browse By Category
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 d-flex align-items-end justify-content-end">
+                                <div class="slider-navigation">
+                                    <i class="fas fa-arrow-left slick-prev-custom"></i>
+                                    <i class="fas fa-arrow-right slick-next-custom"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="boxs slick-slider">
+                            <div class="box">
+                                <img src="./images/Category-CellPhone.png" alt="">
+                                <span>Phone</span>
+                            </div>
+                            <div class="box">
+                                <img src="./images/Category-Computer.png" alt="">
+                                <span>Computers</span>
+                            </div>
+                            <div class="box">
+                                <img src="./images/Category-SmartWatch.png" alt="">
+                                <span>SmartWatch</span>
+                            </div>
+                            <div class="box" style="background-color: #DB4444;">
+                                <img src="./images/Category-Camera.png" alt="">
+                                <span style="color: white;">Camera</span>
+                            </div>
+                            <div class="box">
+                                <img src="./images/Category-Headphone.png" alt="">
+                                <span>HeadPhones</span>
+                            </div>
+                            <div class="box">
+                                <img src="./images/Category-Gamepad.png" alt="">
+                                <span>Gaming</span>
+                            </div>
+
+                            <div class="box">
+                                <img src="./images/Category-Computer.png" alt="">
+                                <span>Computers</span>
+                            </div>
+
+                            <div class="box">
+                                <img src="./images/Category-CellPhone.png" alt="">
+                                <span>Phone</span>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <hr style="margin-top: 70px !important; margin-bottom: 70px !important;">
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main-month ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 month">
+                        <div class="row">
+                            <div class="col-xl-6 ">
+                                <div class="today">
+                                    <img src="./images/Rectangle 17.png" alt="" height="100%">
+                                    <h4>This Month</h4>
+                                </div>
+                                <div>
+                                    <h1>
+                                        Best Selling Products
+                                    </h1>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-6 d-flex align-items-end justify-content-end">
+                                <button class="small-common-button">View All</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-12">
+                        <div class="cloths">
+                            <div class="cloth">
+                                <div class="cloth-image">
+                                    <img src="./images/Frame 605.png" alt="">
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="cloth">
+                                <div class="cloth-image">
+                                    <img src="./images/Frame 606.png" alt="">
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="cloth">
+                                <div class="cloth-image">
+                                    <img src="./images/Frame 610.png" alt="">
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="cloth">
+                                <div class="cloth-image">
+                                    <img src="./images/chair.png" alt="">
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section class="main-banner">
+            <div class="container">
+                <div class="row background">
+                    <div class="col-xl-6">
+                        <div class="banner">
+                            <h6 style="color: #00FF66 !important;">Categories</h6>
+                            <span>Enhance Your Music Experience</span>
+                            <div class="row ">
+                                <div class="col-xl-3 deadline">
+                                    <div class="countdown">
+                                        <h6>23</h6>
+                                        <p>Hours</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 deadline">
+                                    <div class="countdown">
+                                        <h6>23</h6>
+                                        <p>Hours</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-xl-3 deadline">
+                                    <div class="countdown">
+                                        <h6>23</h6>
+                                        <p>Hours</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-xl-3 deadline">
+                                    <div class="countdown">
+                                        <h6>23</h6>
+                                        <p>Hours</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="banner-img">
+                            <img src="./images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+
+
+        <section class="main-banner  border">
+            <div class="container">
+                <div class="row background align-items-center">
+                    <div class="col-xl-6 col-lg-6 col-md-12">
+                        <div class="banner">
+                            <h6 class="text-success">Categories</h6>
+                            <span>Enhance Your Music Experience</span>
+                            <div class="row">
+                                <div class="col-3 deadline">
+                                    <div class="countdown">
+                                        <h6>23</h6>
+                                        <p>Hours</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 deadline">
+                                    <div class="countdown">
+                                        <h6>59</h6>
+                                        <p>Minutes</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 deadline">
+                                    <div class="countdown">
+                                        <h6>45</h6>
+                                        <p>Seconds</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 deadline">
+                                    <div class="countdown">
+                                        <h6>01</h6>
+                                        <p>Days</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="small">
+
+                                <button class="banner-button">Buy Now!</button>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 mt-4 mt-lg-0">
+                        <div class="banner-img text-center">
+                            <img src="./images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="Speaker Image"
+                                class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-slider border">
+            <div class="container">
+                <div class="row flex-column">
+                    <div class="col-xl-12 bottom">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="today">
+                                    <img src="./images/Rectangle 17.png" alt="" height="100%">
+                                    <h4>Today</h4>
+                                </div>
+
+                                <div class="flash">
+                                    <h1>Flash Sales</h1>
+                                    <!-- <div class="count-time">
+                                        <div class="d-flex flex-column ">
+                                            <span>Day</span>
+                                            <h2>03</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column">
+                                            <span>Hours</span>
+                                            <h2>23</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column">
+                                            <span>Minutes</span>
+                                            <h2>13</h2>
+                                        </div>
+
+                                        <div class="d-flex flex-column ">
+                                            <span>Seconds</span>
+                                            <h2>56</h2>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="col-xl-6 d-flex align-items-end justify-content-end">
+                                <div class="slider-navigation d-flex justify-content-end ">
+                                    <span class="custom-prev"><i class="fa-solid fa-arrow-left"></i></span>
+                                    <span class="custom-next"><i class="fa-solid fa-arrow-right"></i></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-12 ">
+                        <div class="cards slider ">
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 611.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 612.png" alt="">
+                                    <span class="cent">-35</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+
+                                    <button class="add">Add To Cart</button>
+                                </div>
+
+                                <div>
+                                    <h5>AK-900 Wired Keyboard</h5>
+                                    <div class="rupee">
+                                        <h4>$960</h4>
+                                        <h5>$1160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>IPS LCD Gaming Monitor</h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 614.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>S-Series Comfort Chair </h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>S-Series Comfort Chair</h5>
+                                    <div class="rupee">
+                                        <h4>$370</h4>
+                                        <h5>$400</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 614.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card1">
+                                <div class="item-image">
+                                    <img src="./images/Frame 613.png" alt="">
+                                    <span class="cent">40</span>
+                                    <div class="item-icon">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <i class="fa-solid fa-eye"></i>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>HAVIT HV-G92 Gamepad</h5>
+                                    <div class="rupee">
+                                        <h4>$120</h4>
+                                        <h5>$160</h5>
+                                    </div>
+                                    <div class="star">
+                                        <div>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <span>(88)</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cloths" style="margin-top: 60px;">
+                        <div class="cloth">
+                            <div class="cloth-image">
+                                <img src="./images/Frame 605.png" alt="">
+                                <div class="item-icon">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h5>HAVIT HV-G92 Gamepad</h5>
+                                <div class="rupee">
+                                    <h4>$120</h4>
+                                    <h5>$160</h5>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <span>(88)</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cloth">
+                            <div class="cloth-image">
+                                <img src="./images/Frame 606.png" alt="">
+                                <div class="item-icon">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h5>HAVIT HV-G92 Gamepad</h5>
+                                <div class="rupee">
+                                    <h4>$120</h4>
+                                    <h5>$160</h5>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <span>(88)</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="cloth">
+                            <div class="cloth-image">
+                                <img src="./images/Frame 610.png" alt="">
+                                <div class="item-icon">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h5>HAVIT HV-G92 Gamepad</h5>
+                                <div class="rupee">
+                                    <h4>$120</h4>
+                                    <h5>$160</h5>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <span>(88)</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="cloth">
+                            <div class="cloth-image">
+                                <img src="./images/chair.png" alt="">
+                                <div class="item-icon">
+                                    <i class="fa-regular fa-heart"></i>
+                                    <i class="fa-solid fa-eye"></i>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <h5>HAVIT HV-G92 Gamepad</h5>
+                                <div class="rupee">
+                                    <h4>$120</h4>
+                                    <h5>$160</h5>
+                                </div>
+                                <div class="star">
+                                    <div>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <span>(88)</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="all-product" style="margin-top: 60px !important; margin-bottom: 0px !important;">
+                        <button class="common-button">View All Products</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="main-arrival border">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12 category" style="margin-bottom: 0px !important;">
+                        <div class="row w-100">
+                            <div class="col-xl-6 ">
+                                <div class="today">
+                                    <img src="./images/Rectangle 17.png" alt="" height="100%">
+                                    <h4>Featured</h4>
+                                </div>
+                                <div>
+                                    <h1>
+                                        New Arrival
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-12 row g-4 align-items-center" style="margin-top: 40px !important;">
+
+                        <div class="col-lg">
+                            <img src="./images/Frame 684.png" alt="" class="w-100">
+                        </div>
+
+
+                        <div class="col">
+                            <div class="row g-4">
+                                <div class="col-xl-12">
+                                    <img src="./images/Frame 685.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-lg">
+                                    <img src="./images/Frame 686.png" alt="" class="w-100">
+                                </div>
+                                <div class="col-lg">
+                                    <img src="./images/Frame 687.png" alt="" class="w-100">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="main-free border">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-lg">
+                        <div class="delavri-free">
+                            <img src="./images/Services.png" alt="">
+                            <h5>FREE AND FAST DELIVERY</h5>
+                            <p>Free delivery for all orders over $140</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg">
+                        <div class="delavri-free">
+                            <img src="./images/Services1.png" alt="">
+                            <h5>24/7 CUSTOMER SERVICE</h5>
+                            <p>Friendly 24/7 customer support</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg">
+                        <div class="delavri-free">
+                            <img src="./images/Services2.png" alt="" class=" img-fluid">
+                            <h5>MONEY BACK GUARANTEE</h5>
+                            <p>We reurn money within 30 days</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div>
+                            <h1>Exclusive</h1>
+                            <h3>Subscribe</h3>
+                        </div>
+                        <p>Get 10% off your first order</p>
+                        <input type="text" placeholder="Enter your email" class="form-control">
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-2 mb-4">
+                        <div class="footer-menu">
+                            <h3>Support</h3>
+                            <ul>
+                                <li><a href="">111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</a></li>
+                                <li><a href="">exclusive@gmail.com</a></li>
+                                <li><a href="">+88015-88888-9999</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-2 mb-4">
+                        <div class="footer-menu">
+                            <h3>Account</h3>
+                            <ul>
+                                <li><a href="">My Account</a></li>
+                                <li><a href="">Login / Register</a></li>
+                                <li><a href="">Cart</a></li>
+                                <li><a href="">Wishlist</a></li>
+                                <li><a href="">Shop</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-2 mb-4">
+                        <div class="footer-menu">
+                            <h3>Quick Link</h3>
+                            <ul>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms Of Use</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 mb-4">
+                        <div class="footer-menu">
+                            <h3>Download App</h3>
+                            <div class="row align-items-center g-2">
+                                <div class="col-4">
+                                    <img src="./images/Qr Code.png" alt="QR Code" class="img-fluid">
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-12 mb-2">
+                                            <img src="./images/GooglePlay.png" alt="Google Play" class="img-fluid">
+                                        </div>
+                                        <div class="col-12">
+                                            <img src="./images/GooglePlay.png" alt="App Store" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Slick JS -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.cards.slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: $('.custom-prev'),
+                nextArrow: $('.custom-next'),
+                responsive: [
+                    { breakpoint: 1600, settings: { slidesToShow: 4, autoplay: true } }, // covers 1440px
+                    { breakpoint: 1024, settings: { slidesToShow: 2, autoplay: true } },
+                    { breakpoint: 576, settings: { slidesToShow: 1, autoplay: true } }
+                ]
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $('.boxs').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: true,
+                prevArrow: $('.slick-prev-custom'),
+                nextArrow: $('.slick-next-custom'),
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+</body>
+
+</html>
