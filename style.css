@@ -82,7 +82,7 @@ h5 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 0px;
+    padding: 15px 0px !important;
 }
 
 .lists {
@@ -154,6 +154,83 @@ h5 {
     display: none !important;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0px;
+    flex-wrap: wrap;
+  }
+  
+  .lists {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .list ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list li {
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .list a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .list li:hover {
+    text-decoration: underline;
+  }
+  
+  .lists h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 0 5px;
+  }
+  
+  .search-box input {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    background-color: #F5F5F5;
+  }
+  
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+
+.toggle-menu {
+    display: none !important;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
 
 
 
@@ -218,7 +295,7 @@ h5 {
 }
 
 .bottom {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .count-time h2 {
@@ -282,11 +359,11 @@ h5 {
     flex-direction: column;
     gap: 12px;
 }
-.cards.slider{
+.cards.slider,.cards1.slider1{
     justify-content: center;
     align-items: center;
 }
-.cards.slider .card1 {
+.cards.slider .card1 ,.cards1.slider1 .card1 {
     width: 100%; /* Let slick handle width */
     margin: 0 10px;
     box-sizing: border-box;
