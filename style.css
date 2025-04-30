@@ -54,7 +54,15 @@ h5 {
     color: white;
     font-size: 16px;
     font-weight: 500;
+    border: 1px solid transparent;
+    transition: .3s;
 
+}
+
+.common-button:hover{
+    background-color: transparent;
+    color: var(--vibrant_red);
+    border: 1px solid var(--vibrant_red);
 }
 
 .comon-button1 {
@@ -65,7 +73,9 @@ h5 {
     color: white;
     font-size: 16px;
     font-weight: 500;
+    
 }
+
 
 .small-common-button{
         background-color: #DB4444;
@@ -75,6 +85,14 @@ h5 {
         padding: 8px 24px;
         border: none;
         border-radius: 4px;
+        border: 1px solid transparent;
+        transition: .3s;
+}
+
+.small-common-button:hover{
+    background-color: transparent;
+    color: var(--vibrant_red);
+    border: 1px solid var(--vibrant_red);
 }
 
 
@@ -121,15 +139,9 @@ h5 {
     margin: 0;
 }
 
-.nav-link {
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-}
 
-.nav-link:hover {
-    text-decoration: underline;
-}
+
+
 
 .icons {
     display: flex;
@@ -196,15 +208,19 @@ h5 {
     color: var(--comman_black);
 }
 
-.nav-link.active {
+
+.nav-link.active{
     background-color: transparent !important;
-    color: black !important; /* optional: keep text color black */
-    border: none; /* optional: remove any border if you want */
+   
+}
+ .nav-link.active {
+    background-color: transparent !important;
+    color: #DB4444 !important;
+    border: none; 
 }
 
-.nav-link:hover {
-    color: #000;
-}
+
+
 
 
 .hero-image-div {
