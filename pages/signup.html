@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Slick Slider Demo - No Arrows, Dots in Image</title>
+
+  <!-- Slick CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f0f0f0;
+    }
+
+    .slider {
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .slider img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Move dots into image area */
+    .slick-dots {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .slick-dots li button:before {
+      font-size: 12px;
+      color: white;
+      opacity: 0.75;
+    }
+
+    .slick-dots li.slick-active button:before {
+      color: white;
+      opacity: 1;
+    }
+  </style>
 </head>
 <body>
-    
-    sign up page 
+
+  <h2 style="text-align: center;">Slick Slider - Dots Inside Image</h2>
+
+  <div class="slider">
+    <div><img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1"></div>
+    <div><img src="https://via.placeholder.com/800x400?text=Slide+2" alt="Slide 2"></div>
+    <div><img src="https://via.placeholder.com/800x400?text=Slide+3" alt="Slide 3"></div>
+    <div><img src="https://via.placeholder.com/800x400?text=Slide+4" alt="Slide 4"></div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Slick JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').slick({
+        dots: true,
+        arrows: false, // removed arrows
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    });
+  </script>
+
 </body>
 </html>
