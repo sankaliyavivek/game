@@ -1,0 +1,52 @@
+.sign-form{
+    margin-top: 125px;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+    /* border: 1px solid; */
+    gap: 8px;
+    padding: 5px;
+}
+
+.sign-form p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-div{
+
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.form-div input{
+   width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid;
+    padding: 5px;
+
+}
+
+.form-div input:focus{
+    outline: none;
+}
+
+.form-div .btns{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.btns a{
+    color: var(--comman_black);
+    font-size: 16px;
+    font-weight: 500;
+}
